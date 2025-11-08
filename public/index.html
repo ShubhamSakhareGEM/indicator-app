@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>📈 Index 30-Day Detail</h1>
+  </header>
+
+  <main>
+    <div class="controls">
+      <p>Select an Index:</p>
+      <button class="symbol-btn" data-symbol="SPY">S&P 500 (SPY)</button>
+      <button class="symbol-btn" data-symbol="QQQ">NASDAQ 100 (QQQ)</button>
+    </div>
+
+    <div id="loader" class="hidden">Loading...</div>
+    
+    <div class="chart-container">
+      <canvas id="indexChart"></canvas>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
