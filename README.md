@@ -4,6 +4,9 @@ A simple web application that displays a 30-day price history for selected finan
 
 **Deployed Link:** [https://indicator-app-phzj.vercel.app/](https://indicator-app-phzj.vercel.app/)
 
+![Uploading Screenshot 2025-12-30 at 14.23.23.png…]()
+
+
 ## Tech Stack
 * **Frontend:** HTML, CSS, Vanilla JavaScript (ES6+)
 * **Charting:** Chart.js
